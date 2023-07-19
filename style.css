@@ -1,0 +1,91 @@
+#gameboard
+{
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    gap: 2px;
+    
+    
+}
+
+.box
+{
+    border: darkred solid 2px;
+    height: 50px; width: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.blackBox
+{
+    background-color: black;
+    color: blanchedalmond;
+}
+.whiteBox
+{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.white
+{
+    width: 37px; height: 37px;
+    border-radius: 100%;
+    border: white solid 2px;
+    background-color: antiquewhite;  
+}
+
+.white:hover
+{
+    box-shadow: -3px 2px 0px darkgray;
+}
+
+.black
+{
+    width: 37px; height: 37px;
+    border-radius: 100%;
+    border: white solid 2px;
+    background-color: #232323;  
+}
+
+.black:hover
+{
+    box-shadow: -3px 2px 0px #231189;
+}
+
+#status
+{
+    border: darkred solid 2px;
+    width: 518px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 8px;
+}
+
+#error
+{
+    margin: 5px;
+}
+
+#turn
+{
+    margin: 5px;
+}
+
+#button
+{
+    width: 50px; height: 20px;
+    margin: 5px;
+    border: black solid 2px;
+    background-color: blanchedalmond;
+    color: darkred;
+    border-radius: 25%;
+    position: fixed; 
+}
+
+
+
+
